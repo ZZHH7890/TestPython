@@ -1,0 +1,5 @@
+[
+  "test/test_pytest_para.py::TestPara::()::test_login[sellerjoker001@onts.cn-111111-\\u5356\\u5bb6\\u4e2d\\u5fc3 | 17TRACK]",
+  "test/test_pytest_para.py::TestPara::()::test_login[buyerjoker001@onts.cn-111111-\\u63a7\\u5236\\u53f0 | 17TRACK]",
+  "test/test_pytest_para.py::TestPara::()::test_login[buyerjoker002@onts.cn-111111-\\u5356\\u5bb6\\u4e2d\\u5fc3 | 17TRACK]"
+]

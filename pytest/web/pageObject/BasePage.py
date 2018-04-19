@@ -12,7 +12,7 @@ class BasePage(object):
     def find_element(self, *element):
         return self.driver.find_element(*element)
     
-    def input_text(self, element, text):
+    def  input_text(self, element, text):
         self.find_element(*element).send_keys(text)
     
     def click(self, element):
