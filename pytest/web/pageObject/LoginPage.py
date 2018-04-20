@@ -9,9 +9,9 @@ from selenium.webdriver.common.by import By
 
 class LoginPage(BasePage):
 
-    def __init__(self, driver, base_url):
+    def __init__(self, driver, login_page_url):
         self.driver = driver
-        self.base_url = base_url
+        self.base_url = login_page_url
         self.driver.get(self.base_url)
         
     login_name = (By.NAME, 'yq_login_name')
@@ -26,5 +26,5 @@ class LoginPage(BasePage):
 
     def login(self):
         self.click(self.login_btn)
-       
+        
         

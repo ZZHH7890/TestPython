@@ -9,8 +9,7 @@ from web.testCases.TestLoginPage import TestLoginPage
 from web.common import HTMLTestRunner
 import time
 from web.pageObject.LoginPage import LoginPage
-
-
+from web.Config import config
 
 #unittest 入口
 # if __name__ == '__main__':
@@ -26,11 +25,4 @@ from web.pageObject.LoginPage import LoginPage
 
 #pytest 入口
 if __name__ == '__main__':
-    testCasePath = "C:\\Users\\17TRACK\\eclipse-workspace\\TestPython\\pytest\\web\\testCases"
-    reportPath = "C:\\Users\\17TRACK\\eclipse-workspace\\TestPython\\pytest\\report\\"
-    nowTime = time.strftime('%Y-%m-%d-%H_%M_%S', time.localtime(time.time()))
-    reportName = "testReport_"+nowTime+".html"
-    testReport = reportPath + reportName
-    
-    cmdPath = testCasePath+ " -q --html=" + testReport
-    pytest.main(cmdPath)
+    pytest.main(config.pytest_cmd_path)

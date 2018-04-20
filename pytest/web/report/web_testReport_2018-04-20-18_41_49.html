@@ -228,8 +228,8 @@ function filter_table(elem) {
     not_found_message.hidden = !all_rows_hidden;
 }
 </script>
-    <h1>testReport_2018-04-19-16_28_27.html</h1>
-    <p>Report generated on 19-Apr-2018 at 16:28:27 by<a href="https://pypi.python.org/pypi/pytest-html"> pytest-html</a> v1.17.0</p>
+    <h1>web_testReport_2018-04-20-18_41_49.html</h1>
+    <p>Report generated on 20-Apr-2018 at 18:42:26 by<a href="https://pypi.python.org/pypi/pytest-html"> pytest-html</a> v1.17.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -245,8 +245,8 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.6.5</td></tr></table>
     <h2>Summary</h2>
-    <p>0 tests ran in 0.00 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>3 tests ran in 37.18 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">2 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -256,4 +256,31 @@ function filter_table(elem) {
           <th class="sortable numeric" col="duration">Duration</th>
           <th>Links</th></tr>
         <tr hidden="true" id="not-found-message">
-          <th colspan="4">No results found. Try to check the filters</th></tr></thead></table></body></html>
+          <th colspan="4">No results found. Try to check the filters</th></tr></thead>
+      <tbody class="failed results-table-row">
+        <tr>
+          <td class="col-result">Failed</td>
+          <td class="col-name">testCases/test_login_page.py::TestPara::()::test_login[buyerjoker002@onts.cn-111111-\u5356\u5bb6\u4e2d\u5fc3 | 17TRACK]</td>
+          <td class="col-duration">6.70</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">self = &lt;web.testCases.test_login_page.TestPara object at 0x0668F8B0&gt;<br/>login_email_text = &#x27;buyerjoker002@onts.cn&#x27;, login_pass_text = &#x27;111111&#x27;<br/>expect_value = &#x27;卖家中心 | 17TRACK&#x27;<br/><br/>    @pytest.mark.parametrize(&#x27;login_email_text, login_pass_text, expect_value&#x27;, login_info)<br/>    def test_login(self, login_email_text, login_pass_text, expect_value):<br/>        login_page_url = config.login_page_url<br/>        login_page = LoginPage(self.driver, login_page_url)<br/>        self.driver.implicitly_wait(10)<br/>        login_page.input_login_email(login_email_text)<br/>        login_page.input_login_pass(login_pass_text)<br/>        login_page.login()<br/>        self.driver.implicitly_wait(30)<br/>        page_title =self.driver.title<br/>&gt;       assert page_title == expect_value<br/><span class="error">E       AssertionError: assert &#x27;控制台 | 17TRACK&#x27; == &#x27;卖家中心 | 17TRACK&#x27;</span><br/><span class="error">E         - 控制台 | 17TRACK</span><br/><span class="error">E         + 卖家中心 | 17TRACK</span><br/><br/>testCases\test_login_page.py:33: AssertionError<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">testCases/test_login_page.py::TestPara::()::test_login[sellerjoker001@onts.cn-111111-\u5356\u5bb6\u4e2d\u5fc3 | 17TRACK]</td>
+          <td class="col-duration">6.99</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">testCases/test_login_page.py::TestPara::()::test_login[buyerjoker001@onts.cn-111111-\u63a7\u5236\u53f0 | 17TRACK]</td>
+          <td class="col-duration">6.35</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="empty log">No log output captured.</div></td></tr></tbody></table></body></html>

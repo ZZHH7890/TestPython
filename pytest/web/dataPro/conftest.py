@@ -3,10 +3,10 @@ Created on 2018年4月19日/下午2:28:18
 
 @author: joker.zhang
 '''
+from web.common.read_excel import read_all_data
 
-login_info =[('sellerjoker001@onts.cn','111111','卖家中心 | 17TRACK'),
-             ('buyerjoker001@onts.cn','111111','控制台 | 17TRACK'),
-             ('buyerjoker002@onts.cn','111111','控制台 | 17TRACK')]
+#获取登录数据
+login_info = read_all_data('logindata')
 
 
 
