@@ -8,10 +8,10 @@ import os.path
 
 browser = "Firefox"
 
-excel_path = os.path.dirname(os.path.abspath('.')) + "\\web\\testdata\\testData.xlsx"
+excel_path = os.path.dirname(os.path.abspath('.')) + "\\web\\TestData\\testData.xlsx"
 login_page_url = "https://user.17track.net/zh-cn"
-test_case_path = os.path.dirname(os.path.abspath('.')) + '\\web\\testCases'
-report_path = os.path.dirname(os.path.abspath('.')) + '\\web\\report'
+test_case_path = os.path.dirname(os.path.abspath('.')) + '\\web\\TestCases'
+report_path = os.path.dirname(os.path.abspath('.')) + '\\web\\Report'
 now_time = time.strftime('%Y-%m-%d-%H_%M_%S', time.localtime(time.time()))
 web_report_name = "web_testReport_"+now_time+".html"
 test_report = report_path + "\\" + web_report_name

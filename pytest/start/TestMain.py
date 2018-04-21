@@ -4,7 +4,7 @@ Created on 2018年4月18日
 @author: joker.zhang
 '''
 import unittest
-from web.common import HTMLTestRunner
+from web.Common import HTMLTestRunner
 from test.FirstWebDriver import FirstWebDriver
 
 if __name__ == '__main__':
