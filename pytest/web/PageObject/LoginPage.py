@@ -46,4 +46,7 @@ class LoginPage(BasePage):
     
     def get_current_page_title(self):
         return self.get_page_title()
+    
+    def take_qq_btn_screen_shot(self):
+        self.take_screen(self.qq_btn)
         
