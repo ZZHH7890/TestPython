@@ -1,5 +1,3 @@
-#!/usr/bin/python
-# -*- coding: UTF-8 -*-
 
 '''
 Created on 2018年4月21日/下午6:57:59
