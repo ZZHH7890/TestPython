@@ -5,7 +5,6 @@ Created on 2018年4月18日/下午2:53:48
 '''
 import unittest
 import pytest
-from web.TestCases.TestLoginPage import TestLoginPage
 from web.Common import HTMLTestRunner
 import time
 from web.PageObject.LoginPage import LoginPage
