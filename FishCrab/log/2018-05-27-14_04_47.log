@@ -1,0 +1,15 @@
+2018-05-27 14:04:48,860 INFO 钓螃玩家人数为: (6) fish_crab_rule.py[line:28] <module> 
+2018-05-27 14:04:48,860 INFO 发牌总数为: (12) fish_crab_rule.py[line:31] <module> 
+2018-05-27 14:04:48,860 INFO 发牌的牌为: ([('黑桃', '10'), ('方片', '9'), ('方片', '6'), ('黑桃', '4'), ('梅花', '8'), ('方片', '5'), ('梅花', '4'), ('红桃', '9'), ('红桃', '10'), ('红桃', 'Q'), ('梅花', '10'), ('红桃', '2')]) fish_crab_rule.py[line:34] <module> 
+2018-05-27 14:04:48,860 INFO 循环中i的值为: (0) fish_crab_rule.py[line:37] <module> 
+2018-05-27 14:04:48,861 INFO 第1个玩家拿的牌为: ([('黑桃', '10'), ('方片', '9')]) fish_crab_rule.py[line:40] <module> 
+2018-05-27 14:04:48,862 INFO 循环中i的值为: (2) fish_crab_rule.py[line:37] <module> 
+2018-05-27 14:04:48,863 INFO 第2个玩家拿的牌为: ([('方片', '6'), ('黑桃', '4')]) fish_crab_rule.py[line:40] <module> 
+2018-05-27 14:04:48,863 INFO 循环中i的值为: (4) fish_crab_rule.py[line:37] <module> 
+2018-05-27 14:04:48,863 INFO 第3个玩家拿的牌为: ([('梅花', '8'), ('方片', '5')]) fish_crab_rule.py[line:40] <module> 
+2018-05-27 14:04:48,863 INFO 循环中i的值为: (6) fish_crab_rule.py[line:37] <module> 
+2018-05-27 14:04:48,863 INFO 第4个玩家拿的牌为: ([('梅花', '4'), ('红桃', '9')]) fish_crab_rule.py[line:40] <module> 
+2018-05-27 14:04:48,863 INFO 循环中i的值为: (8) fish_crab_rule.py[line:37] <module> 
+2018-05-27 14:04:48,863 INFO 第5个玩家拿的牌为: ([('红桃', '10'), ('红桃', 'Q')]) fish_crab_rule.py[line:40] <module> 
+2018-05-27 14:04:48,863 INFO 循环中i的值为: (10) fish_crab_rule.py[line:37] <module> 
+2018-05-27 14:04:48,863 INFO 第6个玩家拿的牌为: ([('梅花', '10'), ('红桃', '2')]) fish_crab_rule.py[line:40] <module> 
