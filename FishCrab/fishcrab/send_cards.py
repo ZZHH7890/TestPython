@@ -42,6 +42,7 @@ def send_cards():
         logger.info("循环中i的值为: (%s)", i)
         player_card = cardRand[i:i + 2]
         player_no = int(i / 2 + 1)
+        player_card = player_card + [player_no]
         logger.info("第%s个玩家拿的牌为: (%s)", player_no, player_card)
         print(player_no, player_card)
 

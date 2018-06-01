@@ -8,7 +8,6 @@ Created on 2018年4月20日/下午11:28:03
 '''
 import logging  
 import os.path  
-import time 
 from fishcrab.config import get_now_time
 
 

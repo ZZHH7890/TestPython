@@ -1,0 +1,11 @@
+2018-06-01 17:57:55,885 INFO 钓螃玩家人数为: (4) send_cards.py[line:33] send_cards 
+2018-06-01 17:57:55,886 INFO 发牌总数为: (8) send_cards.py[line:36] send_cards 
+2018-06-01 17:57:55,886 INFO 发牌的牌为: ([('红桃', '9'), ('正司令', '大王'), ('红桃', 'Q'), ('梅花', '8'), ('方片', '10'), ('方片', '4'), ('梅花', '10'), ('方片', 'Q')]) send_cards.py[line:39] send_cards 
+2018-06-01 17:57:55,886 INFO 循环中i的值为: (0) send_cards.py[line:42] send_cards 
+2018-06-01 17:57:55,886 INFO 第1个玩家拿的牌为: ([('红桃', '9'), ('正司令', '大王'), 1]) send_cards.py[line:46] send_cards 
+2018-06-01 17:57:55,887 INFO 循环中i的值为: (2) send_cards.py[line:42] send_cards 
+2018-06-01 17:57:55,887 INFO 第2个玩家拿的牌为: ([('红桃', 'Q'), ('梅花', '8'), 2]) send_cards.py[line:46] send_cards 
+2018-06-01 17:57:55,887 INFO 循环中i的值为: (4) send_cards.py[line:42] send_cards 
+2018-06-01 17:57:55,887 INFO 第3个玩家拿的牌为: ([('方片', '10'), ('方片', '4'), 3]) send_cards.py[line:46] send_cards 
+2018-06-01 17:57:55,887 INFO 循环中i的值为: (6) send_cards.py[line:42] send_cards 
+2018-06-01 17:57:55,887 INFO 第4个玩家拿的牌为: ([('梅花', '10'), ('方片', 'Q'), 4]) send_cards.py[line:46] send_cards 

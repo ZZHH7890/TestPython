@@ -77,5 +77,5 @@ def card_type(player_card):
 
 
 if __name__ == '__main__':
-    player_card = [('方块', '2'), ('黑桃', '8')]
+    player_card = [('方块', 'Q'), ('红桃', '9')]
     card_type(player_card)           
