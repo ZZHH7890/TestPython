@@ -1,4 +1,0 @@
-2018-06-01 17:55:30,615 INFO 钓螃玩家人数为: (4) send_cards.py[line:33] send_cards 
-2018-06-01 17:55:30,616 INFO 发牌总数为: (8) send_cards.py[line:36] send_cards 
-2018-06-01 17:55:30,616 INFO 发牌的牌为: ([('黑桃', '6'), ('方片', '5'), ('红桃', '9'), ('方片', '7'), ('黑桃', '3'), ('方片', '8'), ('红桃', 'J'), ('红桃', '10')]) send_cards.py[line:39] send_cards 
-2018-06-01 17:55:30,616 INFO 循环中i的值为: (0) send_cards.py[line:42] send_cards 

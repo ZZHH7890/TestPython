@@ -7,8 +7,10 @@ Created on 2018年5月27日/下午2:19:07
 import random
 from fishcrab.logger import Logger
 from builtins import int
+from fishcrab.fish_crab_rule import judging_card
+from operator import itemgetter
 
-logger = Logger(logger="BasePage").getloger()
+logger = Logger(__name__).getloger()
 
 '''
    牌数：
@@ -37,14 +39,19 @@ def send_cards():
     
     cardRand = random.sample(cardList, play_card_num)
     logger.info("发牌的牌为: (%s)", cardRand)
-    
+    list_sort = []
     for i in range(0, play_card_num, 2):
         logger.info("循环中i的值为: (%s)", i)
         player_card = cardRand[i:i + 2]
         player_no = int(i / 2 + 1)
-        player_card = player_card + [player_no]
+        player_card = [player_no] + judging_card(player_card)
         logger.info("第%s个玩家拿的牌为: (%s)", player_no, player_card)
-        print(player_no, player_card)
+        print(player_card)
+        temp_tuple = tuple(player_card)
+        list_sort.append(temp_tuple)
+        
+    list_sort = sorted(list_sort, key=itemgetter(4), reverse=True) 
+    print(list_sort)   
 
 
 if __name__ == '__main__':

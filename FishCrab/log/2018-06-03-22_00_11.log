@@ -1,0 +1,51 @@
+2018-06-03 22:00:17,867 INFO 钓螃玩家人数为: (16) send_cards.py[line:34] send_cards 
+2018-06-03 22:00:17,867 INFO 发牌总数为: (32) send_cards.py[line:37] send_cards 
+2018-06-03 22:00:17,868 INFO 发牌的牌为: ([('红桃', '10'), ('方片', '7'), ('红桃', '6'), ('方片', '8'), ('梅花', '8'), ('正司令', '大王'), ('黑桃', '7'), ('梅花', '4'), ('方片', '5'), ('黑桃', '4'), ('方片', '6'), ('黑桃', '3'), ('红桃', '2'), ('方片', 'Q'), ('黑桃', '10'), ('梅花', '10'), ('梅花', '7'), ('红桃', 'Q'), ('黑桃', '6'), ('方片', '4'), ('红桃', '8'), ('梅花', '6'), ('红桃', '9'), ('红桃', '4'), ('红桃', 'J'), ('方片', '10'), ('方片', '2'), ('黑桃', '8'), ('红桃', '5'), ('方片', '9'), ('红桃', '7'), ('方片', 'J')]) send_cards.py[line:40] send_cards 
+2018-06-03 22:00:17,885 INFO 循环中i的值为: (0) send_cards.py[line:43] send_cards 
+2018-06-03 22:00:17,885 INFO 牌型杂牌算点数, 排位点数为为7 fish_crab_rule.py[line:91] judging_card 
+2018-06-03 22:00:17,885 INFO 第1个玩家拿的牌为: ([('红桃', '10'), ('方片', '7'), '杂牌算点数', 7, 1]) send_cards.py[line:47] send_cards 
+2018-06-03 22:00:17,885 INFO 循环中i的值为: (2) send_cards.py[line:43] send_cards 
+2018-06-03 22:00:17,886 INFO 牌型杂牌算点数, 排位点数为为4 fish_crab_rule.py[line:91] judging_card 
+2018-06-03 22:00:17,886 INFO 第2个玩家拿的牌为: ([('红桃', '6'), ('方片', '8'), '杂牌算点数', 4, 2]) send_cards.py[line:47] send_cards 
+2018-06-03 22:00:17,886 INFO 循环中i的值为: (4) send_cards.py[line:43] send_cards 
+2018-06-03 22:00:17,886 INFO 牌型杂牌算点数, 排位点数为为4 fish_crab_rule.py[line:91] judging_card 
+2018-06-03 22:00:17,886 INFO 第3个玩家拿的牌为: ([('梅花', '8'), ('正司令', '大王'), '杂牌算点数', 4, 3]) send_cards.py[line:47] send_cards 
+2018-06-03 22:00:17,886 INFO 循环中i的值为: (6) send_cards.py[line:43] send_cards 
+2018-06-03 22:00:17,886 INFO 牌型杂牌算点数, 排位点数为为1 fish_crab_rule.py[line:91] judging_card 
+2018-06-03 22:00:17,886 INFO 第4个玩家拿的牌为: ([('黑桃', '7'), ('梅花', '4'), '杂牌算点数', 1, 4]) send_cards.py[line:47] send_cards 
+2018-06-03 22:00:17,886 INFO 循环中i的值为: (8) send_cards.py[line:43] send_cards 
+2018-06-03 22:00:17,886 INFO 牌型杂牌算点数, 排位点数为为9 fish_crab_rule.py[line:91] judging_card 
+2018-06-03 22:00:17,887 INFO 第5个玩家拿的牌为: ([('方片', '5'), ('黑桃', '4'), '杂牌算点数', 9, 5]) send_cards.py[line:47] send_cards 
+2018-06-03 22:00:17,887 INFO 循环中i的值为: (10) send_cards.py[line:43] send_cards 
+2018-06-03 22:00:17,887 INFO 牌型杂牌算点数, 排位点数为为9 fish_crab_rule.py[line:91] judging_card 
+2018-06-03 22:00:17,887 INFO 第6个玩家拿的牌为: ([('方片', '6'), ('黑桃', '3'), '杂牌算点数', 9, 6]) send_cards.py[line:47] send_cards 
+2018-06-03 22:00:17,887 INFO 循环中i的值为: (12) send_cards.py[line:43] send_cards 
+2018-06-03 22:00:17,887 INFO 牌型杂牌算点数, 排位点数为为4 fish_crab_rule.py[line:91] judging_card 
+2018-06-03 22:00:17,887 INFO 第7个玩家拿的牌为: ([('红桃', '2'), ('方片', 'Q'), '杂牌算点数', 4, 7]) send_cards.py[line:47] send_cards 
+2018-06-03 22:00:17,887 INFO 循环中i的值为: (14) send_cards.py[line:43] send_cards 
+2018-06-03 22:00:17,887 INFO 牌型对黑4, 排位点数为为994 fish_crab_rule.py[line:61] judging_card 
+2018-06-03 22:00:17,887 INFO 第8个玩家拿的牌为: ([('黑桃', '10'), ('梅花', '10'), '对黑4', 994, 8]) send_cards.py[line:47] send_cards 
+2018-06-03 22:00:17,888 INFO 循环中i的值为: (16) send_cards.py[line:43] send_cards 
+2018-06-03 22:00:17,888 INFO 牌型杂牌算点数, 排位点数为为9 fish_crab_rule.py[line:91] judging_card 
+2018-06-03 22:00:17,888 INFO 第9个玩家拿的牌为: ([('梅花', '7'), ('红桃', 'Q'), '杂牌算点数', 9, 9]) send_cards.py[line:47] send_cards 
+2018-06-03 22:00:17,888 INFO 循环中i的值为: (18) send_cards.py[line:43] send_cards 
+2018-06-03 22:00:17,888 INFO 牌型杂牌算点数, 排位点数为为0 fish_crab_rule.py[line:91] judging_card 
+2018-06-03 22:00:17,888 INFO 第10个玩家拿的牌为: ([('黑桃', '6'), ('方片', '4'), '杂牌算点数', 0, 10]) send_cards.py[line:47] send_cards 
+2018-06-03 22:00:17,888 INFO 循环中i的值为: (20) send_cards.py[line:43] send_cards 
+2018-06-03 22:00:17,888 INFO 牌型杂牌算点数, 排位点数为为4 fish_crab_rule.py[line:91] judging_card 
+2018-06-03 22:00:17,888 INFO 第11个玩家拿的牌为: ([('红桃', '8'), ('梅花', '6'), '杂牌算点数', 4, 11]) send_cards.py[line:47] send_cards 
+2018-06-03 22:00:17,888 INFO 循环中i的值为: (22) send_cards.py[line:43] send_cards 
+2018-06-03 22:00:17,889 INFO 牌型杂牌算点数, 排位点数为为3 fish_crab_rule.py[line:91] judging_card 
+2018-06-03 22:00:17,889 INFO 第12个玩家拿的牌为: ([('红桃', '9'), ('红桃', '4'), '杂牌算点数', 3, 12]) send_cards.py[line:47] send_cards 
+2018-06-03 22:00:17,889 INFO 循环中i的值为: (24) send_cards.py[line:43] send_cards 
+2018-06-03 22:00:17,889 INFO 牌型杂牌算点数, 排位点数为为1 fish_crab_rule.py[line:91] judging_card 
+2018-06-03 22:00:17,889 INFO 第13个玩家拿的牌为: ([('红桃', 'J'), ('方片', '10'), '杂牌算点数', 1, 13]) send_cards.py[line:47] send_cards 
+2018-06-03 22:00:17,889 INFO 循环中i的值为: (26) send_cards.py[line:43] send_cards 
+2018-06-03 22:00:17,889 INFO 牌型地八牌, 排位点数为为989 fish_crab_rule.py[line:86] judging_card 
+2018-06-03 22:00:17,889 INFO 第14个玩家拿的牌为: ([('方片', '2'), ('黑桃', '8'), '地八牌', 989, 14]) send_cards.py[line:47] send_cards 
+2018-06-03 22:00:17,889 INFO 循环中i的值为: (28) send_cards.py[line:43] send_cards 
+2018-06-03 22:00:17,889 INFO 牌型杂牌算点数, 排位点数为为4 fish_crab_rule.py[line:91] judging_card 
+2018-06-03 22:00:17,889 INFO 第15个玩家拿的牌为: ([('红桃', '5'), ('方片', '9'), '杂牌算点数', 4, 15]) send_cards.py[line:47] send_cards 
+2018-06-03 22:00:17,890 INFO 循环中i的值为: (30) send_cards.py[line:43] send_cards 
+2018-06-03 22:00:17,890 INFO 牌型杂牌算点数, 排位点数为为8 fish_crab_rule.py[line:91] judging_card 
+2018-06-03 22:00:17,890 INFO 第16个玩家拿的牌为: ([('红桃', '7'), ('方片', 'J'), '杂牌算点数', 8, 16]) send_cards.py[line:47] send_cards 
