@@ -49,8 +49,8 @@ def send_cards():
         print(player_card)
         temp_tuple = tuple(player_card)
         list_sort.append(temp_tuple)
-        
-    list_sort = sorted(list_sort, key=itemgetter(4), reverse=True) 
+    # 先按rank_value降序，如果rank_value相同则按照玩家升序    
+    list_sort = sorted(list_sort, key=lambda x:(int(x[4]), -int(x[0])), reverse=True) 
     print(list_sort)   
 
 
